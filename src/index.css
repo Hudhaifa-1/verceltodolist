@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: repeating-linear-gradient(45deg, #e5b8b8, transparent 2000px);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto;
+  
+}
+
+.title-center{
+  text-align: center;
+  color:#fff;
+}
+
+
+.List-item span.title{
+  color: #fff;
+  background-color: #2ebaee;
+}
+
+.container input[type="text"]{
+  height: 42px;
+}
+.List-item span.name,
+.container input[type="text"]{
+  width: 60%;
+}
+
+.List-item span.time,
+.container input[type="time"]{
+  width: 30%;
+}
+
+.List-item span.action,
+.container input[type="submit"],
+.close{
+  width: 10%;
+
+}
+
+.List-item{
+  color:#46529d;
+  background-color: #fff;
+}
+
+.List-item p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+} 
+
+.List-item span{
+  display: inline-block;
+ 
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border: 0.3px solid #ccc;
+  
+}
+
+.List-item span.icon{
+  color: #f00;
+  cursor: pointer;
+}
+
+form input{
+  padding: 10px;
+  background-color: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+  outline: none;
+
+}
+
+form input[type='submit']{
+  background-color: #2ebaee;
+  border: 0.3 solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+  height: 42px;
+}
+
+.hudhaifa{
+  position: absolute;
+  font-size: 35px;
+ 
+  height: 386px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+  color: #3a74db;
+  padding:  5px;
+  
+  width: 27px;
+  padding-right: 5px;
+  word-wrap: break-word;
+  font-weight: bold;
+
+}
+.father{
+ 
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 20%;
+  
+  height: 437px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+ 
+  padding:  5px;
+  background: repeating-linear-gradient(45deg, #0c0909, transparent 100px);
+  width: 40px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width:600px){
+  .List-item span.action, .container input[type="submit"], .close {
+    width: 13%;
+}
+
+
+span.title.action{
+
+font-size: 15px;
+    padding-top: 15px;
+}
+
+.title{
+  font-size: 19px;
+}
+
+
+.List-item span.time, .container input[type="time"] {
+  width: 37%;
+}
+
+
+
+.List-item span.name, .container input[type="text"] {
+  width: 50%;
+}
+}
+
+@media only screen and (max-width:900px){
+  .container input[type="text"]{
+    height: 42px;
+  }
+  .List-item span.name,
+  .container input[type="text"]{
+    width: 60%;
+  }
+  
+  .List-item span.time,
+  .container input[type="time"]{
+    width: 30%;
+  }
+  
+  .List-item span.action,
+  .container input[type="submit"],
+  .close{
+    width: 10%;
+  
+  }
+  .title.time{
+    padding-top: 37px;
+    }
+  
+}
+
+@media only screen and (max-width:800px){
+  .container input[type="text"]{
+    height: 42px;
+  }
+  .List-item span.name,
+  .container input[type="text"]{
+    width: 53%;
+  }
+  span.title.action{
+  
+    padding-top: 37px;    }
+  
+  .List-item span.time,
+  .container input[type="time"]{
+    width: 28%;
+  }
+  
+  .List-item span.action,
+  .container input[type="submit"],
+  .close{
+    width: 19%;  
+  }
+
+ 
+    .title.time{
+      padding-top: 10px;
+      }
+    
+    
+    .title.name{
+    padding-top: 37px;
+    }
+}
