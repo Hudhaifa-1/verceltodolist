@@ -7,7 +7,7 @@ function Todoitems(props) {
 
   
   
-  let storeddata = JSON.parse(localStorage.getItem("items"))
+  let storeddata =localStorage.getItem("items")? JSON.parse(localStorage.getItem("items")):[];
  
   return (
     
