@@ -136,33 +136,7 @@ form input[type='submit']{
   padding-right: 5px;
 }
 
-@media only screen and (max-width:600px){
-  .List-item span.action, .container input[type="submit"], .close {
-    width: 13%;
-}
 
-
-span.title.action{
-
-font-size: 15px;
-    padding-top: 15px;
-}
-
-.title{
-  font-size: 19px;
-}
-
-
-.List-item span.time, .container input[type="time"] {
-  width: 37%;
-}
-
-
-
-.List-item span.name, .container input[type="text"] {
-  width: 50%;
-}
-}
 
 @media only screen and (max-width:900px){
   .container input[type="text"]{
@@ -222,4 +196,36 @@ font-size: 15px;
     .title.name{
     padding-top: 37px;
     }
+}
+
+
+@media only screen and (max-width:600px){
+  .List-item span.action, .container input[type="submit"], .close {
+    width: 21%;
+}
+
+
+.title{
+  font-size: 16px;
+}
+
+
+.List-item span.name, .container input[type="text"] {
+  width: 44%;
+}
+
+.List-item span.time, .container input[type="time"] {
+  width: 35%;
+}
+
+span.title.action {
+  font-size: 15px;
+  padding-top: 43px;
+}
+
+.container{
+  width: 74%;
+  margin: 10% auto;
+
+}
 }
