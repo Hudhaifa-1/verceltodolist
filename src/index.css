@@ -213,7 +213,7 @@ form input[type='submit']{
 }
 span.title.time{
 
-  padding-top: 18px;
+  padding-top: 20px;
 
 }
 .title{
@@ -233,6 +233,8 @@ input[type="text"]{
 }
 .List-item span.time, .container input[type="time"] {
   width: 35%;
+  padding-top: 13px;
+ 
 }
 
 span.title.action {
@@ -252,13 +254,13 @@ margin-right: 18px;
   box-shadow: -1px 16px 33px #87becd;
   left: 0;
   top: 20%;
-  height: 355px;
+  height: 325px;
   text-align: center;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   padding: 5px;
   background: repeating-linear-gradient(45deg, #bd9a9a42, transparent 100px);
-  width: 40px;
+  width: 34px;
   padding-right: 5px;
 }
 
@@ -271,7 +273,7 @@ margin-right: 18px;
   border-top-left-radius: 5px;
   color: #3a74db;
   padding: 5px;
-  width: 27px;
+  width: 24px;
   padding-right: 5px;
   word-wrap: break-word;
   font-weight: bold;
