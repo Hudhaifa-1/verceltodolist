@@ -213,7 +213,7 @@ form input[type='submit']{
 }
 span.title.time{
 
-  padding-top: 30px;
+  padding-top: 20px;
 
 }
 .title{
@@ -223,9 +223,8 @@ span.title.time{
 span.title.name{
   padding-top: 41px;
 }
-.List-item span.name:not(span.title.name), .container input[type="text"] {
+.List-item span.name, .container input[type="text"] {
   width: 44%;
-  padding-top: 5px;
   
   
 }
