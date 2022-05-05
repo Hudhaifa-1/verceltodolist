@@ -229,7 +229,7 @@ span.title.name{
   
 }
 .List-item span.name:not(span.title.name), .container input[type="text"] {
-  padding-top: 11px;
+  padding-top: 13px;
 }
 input[type="text"]{
   padding-top: 15px;
@@ -285,8 +285,4 @@ margin-right: 18px;
   font-weight: bold;
 }
 
-}
-span.title.time{
-
-  padding-top: 19px;
 }
