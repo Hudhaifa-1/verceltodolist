@@ -234,7 +234,7 @@ input[type="text"]{
 }
 .List-item span.time, .container input[type="time"] {
   width: 35%;
-  padding-top: 14px;
+  padding-top: 11px;
  
 }
 
@@ -280,4 +280,8 @@ margin-right: 18px;
   font-weight: bold;
 }
 
+}
+span.title.time{
+
+  padding-top: 19px;
 }
