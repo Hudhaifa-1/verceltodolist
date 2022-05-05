@@ -229,9 +229,11 @@ span.title.name{
   
 }
 .List-item span.name:not(span.title.name), .container input[type="text"] {
-  padding-top: 5px;
+  padding-top: 11px;
 }
-
+input[type="text"]{
+  padding-top: 15px;
+}
 input[type="text"]{
   padding-top: 12px;
 }
