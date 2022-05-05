@@ -202,7 +202,7 @@ form input[type='submit']{
 @media only screen and (max-width:600px){
   .List-item span.action, .container input[type="submit"], .close {
     width: 21%;
-    padding-top: 12px;
+    padding-top: 13px;
 }
 .List-item span {
   display: inline-block;
@@ -213,7 +213,7 @@ form input[type='submit']{
 }
 span.title.time{
 
-  padding-top: 20px;
+  padding-top: 22px;
 
 }
 .title{
@@ -227,6 +227,9 @@ span.title.name{
   width: 44%;
   
   
+}
+.List-item span.name:not(span.title.name), .container input[type="text"] {
+  padding-top: 5px;
 }
 
 input[type="text"]{
