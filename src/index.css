@@ -202,18 +202,35 @@ form input[type='submit']{
 @media only screen and (max-width:600px){
   .List-item span.action, .container input[type="submit"], .close {
     width: 21%;
+    padding-top: 12px;
 }
+.List-item span {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 0;
+  text-align: center;
+  border: 0.3px solid #ccc;
+}
+span.title.time{
 
+  padding-top: 18px;
 
+}
 .title{
   font-size: 16px;
 }
 
-
+span.title.name{
+  padding-top: 40px;
+}
 .List-item span.name, .container input[type="text"] {
   width: 44%;
+  
 }
 
+input[type="text"]{
+  padding-top: 12px;
+}
 .List-item span.time, .container input[type="time"] {
   width: 35%;
 }
@@ -223,9 +240,41 @@ span.title.action {
   padding-top: 43px;
 }
 
-.container{
-  width: 74%;
+.container {
+  width: 82%;
   margin: 10% auto;
-
+margin-right: 18px;
 }
+
+.father {
+  background-color: red;
+  position: fixed;
+  box-shadow: -1px 16px 33px #87becd;
+  left: 0;
+  top: 20%;
+  height: 355px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  background: repeating-linear-gradient(45deg, #bd9a9a42, transparent 100px);
+  width: 40px;
+  padding-right: 5px;
+}
+
+.hudhaifa {
+  position: absolute;
+  font-size: 26px;
+  height: 354px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: #3a74db;
+  padding: 5px;
+  width: 27px;
+  padding-right: 5px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
 }
